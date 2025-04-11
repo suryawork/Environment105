@@ -4,8 +4,8 @@ on:
     branches:
       - main
       - dev
-  env:
-    MONGODB_DB_NAME: demo-check   #Setting the Environment Variable
+env:
+  MONGODB_DB_NAME: demo-check   #Setting the Environment Variable
 jobs:
   test:
     env:
